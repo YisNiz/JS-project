@@ -1,0 +1,250 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3c9d6e0;
+}
+
+#user {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#haman {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#computer {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#old-letters {
+    height: 20vh;
+    width: 80vw;
+    background-color: #dfe6e9;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#up {
+    margin-top: 20px;
+    align-self: flex-end;
+    height: 7vh;
+    width: 40vw;
+    background-color: #a8dadc;
+    margin-right: 10vw;
+}
+
+#center {
+    align-self: flex-end;
+    margin-right: 39vw;
+    height: 5vh;
+    width: 2vw;
+    background-color: #f56e00;
+}
+
+#side {
+    align-self: flex-end;
+    height: 45vh;
+    width: 3vw;
+    background-color: #f5a623;
+    margin-right: 10vw;
+    margin-top: -5vh;
+}
+
+#l {
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#l button {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #f3b6c1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#l button:hover {
+    background-color: #ff7f7f;
+}
+
+#l input {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    background-color: #fef2f2;
+    border: none;
+    border-radius: 10px;
+}
+
+.newDiv {
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: -30;
+    display: none;
+}
+
+.newDivI {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px black solid;
+}
+
+.newDivIrek {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oldLeter {
+    height: 6vh;
+    width: 6vh;
+    background-color: #f3d9e1;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.win {
+    position: fixed;
+    opacity: 70%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.617);
+    background-image: url(../PICTURES2/400.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lose {
+    position: fixed;
+    opacity: 70%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../PICTURES2/200.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.638);
+}
+
+#pictures {
+    background-repeat: no-repeat;
+    background-color: #f3b6c1;
+    height: 270px;
+    width: 200px;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+
+    margin-right: 34.5vw;
+    margin-top: -150px;
+}
+
+#hashlem {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 70px;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+#hashlem input,
+button {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    align-self: center;
+}
+
+.succses {
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 50px;
+    color: #fa5767;
+}
+
+#back {
+    background-color: #f4e1d2;
+    border-radius: 20px;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.button-newGme {
+    background-color: #f3c9d6;
+    height: 100px;
+    width: 100px;
+}
+h1{
+    color:#f5a623;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    font-size: 35px;
+}
